@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+        <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>		
+    
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+    
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>  
+    
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyA85wEuEpd90L5GE4yAnn93HR7mOsjD4do",
+            authDomain: "loja-de-moveis-larimy.firebaseapp.com",
+            databaseURL: "https://loja-de-moveis-larimy-default-rtdb.firebaseio.com",
+            projectId: "loja-de-moveis-larimy",
+            storageBucket: "loja-de-moveis-larimy.appspot.com",
+            messagingSenderId: "262066454143",
+            appId: "1:262066454143:web:c895981ae2aa7dddc0494a",
+            measurementId: "G-2ZSNN969V9"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="consulta2.js"></script>
+
+    </head>
+
+    <body>
+        <img class="LariMy_logo" src="LariMy.png">
+        <h3>LariMy Móveis</h3>
+        <h4 class="products-name"> Produtos</h4>
+        <div class="buttons-htmls">
+            <a href="clientes.html"><button class="clients-button"> Clientes </button></a>
+            <a href="produtos.html"><button class="products-button"> Produtos </button></a>
+          </div>
+        <table id="tbprodutos" class="table table-dark table-striped table-bordered table-responsive">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Cor</th>
+                <th>Garantia</th>
+                <th>Valor</th>
+            </tr>
+        </table>
+    </body>
+</html>
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+
+ body {
+    margin: 0px;
+    background-color:  #1f1f22;
+}
+ h3 {
+    font-family: Space Mono;
+    font-weight: bold;
+    color: #f79259;
+    text-align: center;
+}
+.products-name {
+   font-family: Space Mono;
+   color: #f79259;
+   text-align: center;
+}
+ .LariMy_logo {
+    width: 80px;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+}
+ .buttons-htmls {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 30px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .clients-button {
+    background: #f79259;
+    color: #0a214a;
+    font-weight: bold;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+ .products-button {
+    background: #f79259;
+    color: #0a214a;
+    font-weight: bold;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+ table {
+    margin-top: 10px;
+}
+</style>

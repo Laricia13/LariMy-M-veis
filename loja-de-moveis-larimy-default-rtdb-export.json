@@ -1,0 +1,130 @@
+{
+  "loja de moveis": {
+    "clientes": [
+      null,
+      {
+        "cpf": "111.222.333-23",
+        "email": "ana@gmail.com",
+        "nome": "Ana Lima Soares",
+        "telefone": 988656487
+      },
+      {
+        "cpf": "334.456.876-56",
+        "email": "jose@gmail.com",
+        "nome": "Jose Candido Ferrari",
+        "telefone": 988702030
+      },
+      {
+        "cpf": "432.987.876-09",
+        "email": "paulo@gmail.com",
+        "nome": "Paulo Kariri Cavalcante",
+        "telefone": 988707070
+      },
+      {
+        "cpf": "876.654.874-87",
+        "email": "wesley@gmail.com",
+        "nome": "Wesley Almeida Campos",
+        "telefone": 988676564
+      },
+      {
+        "cpf": "987.756.456-85",
+        "email": "tamires@gmail.com",
+        "nome": "Tamires do Nascimento Silva",
+        "telefone": 988010223
+      },
+      {
+        "cpf": "987.435.657-87",
+        "email": "giselly@gamil.com",
+        "nome": "Giselly Moreira Batista",
+        "telefone": 988554432
+      },
+      {
+        "cpf": "202.564.346-14",
+        "email": "sabrina@gmail.com",
+        "nome": "Sabrina do Nascimento Alves",
+        "telefone": 988734511
+      },
+      {
+        "cpf": "101.003.073-61",
+        "email": "marcos@gmail.com",
+        "nome": "Marcos Sousa de Cena",
+        "telefone": 988665544
+      },
+      {
+        "cpf": "101.003.764-67",
+        "email": "tavares@gmail.com",
+        "nome": "Gabriel Tavares de Melo",
+        "telefone": 988332211
+      },
+      {
+        "cpf": "345.987.555-09",
+        "email": "junior@gmail.com",
+        "nome": "Junior Consuelo Pereira",
+        "telefone": 988765432
+      }
+    ],
+    "produtos": [
+      null,
+      {
+        "cor": "rosa",
+        "garantia": "um ano",
+        "nome": "Sofá",
+        "valor": "960,00"
+      },
+      {
+        "cor": "alaranjado",
+        "garantia": "seis meses",
+        "nome": "Armário",
+        "valor": "600,00"
+      },
+      {
+        "cor": "cinza",
+        "garantia": "um ano e dois dias",
+        "nome": "Televisão",
+        "valor": "1500,00"
+      },
+      {
+        "cor": "verde-musgo",
+        "garantia": "quatro dias",
+        "nome": "Cadeira",
+        "valor": "350,00"
+      },
+      {
+        "cor": "branco",
+        "garantia": "um mês",
+        "nome": "Penteadeira",
+        "valor": "99,90"
+      },
+      {
+        "cor": "prateado",
+        "garantia": "cinco meses",
+        "nome": "Lustre",
+        "valor": "15,000,00"
+      },
+      {
+        "cor": "lilas",
+        "garantia": "dez dias",
+        "nome": "Escrivaninha",
+        "valor": "540,00"
+      },
+      {
+        "cor": "preta",
+        "garantia": "sem garantia",
+        "nome": "Prateleira",
+        "valor": "199,99"
+      },
+      {
+        "cor": "vermelho",
+        "garantia": "um minuto",
+        "nome": "Cama",
+        "valor": "250,00"
+      },
+      {
+        "cor": "amadeirado",
+        "garantia": "quinze horas",
+        "nome": "Guarda-roupa",
+        "valor": "990,97"
+      }
+    ]
+  }
+}
